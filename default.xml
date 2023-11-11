@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+  <remote name="oe" fetch="git://git.openembedded.org" />
+  <remote name="jesper" fetch="git://github.com/jesper-raemaekers" />
+  
+  <project name="poky" revision="refs/heads/mickledore" remote="yocto" />
+  <project name="meta-raspberrypi" revision="refs/heads/mickledore"  remote="yocto" path="poky/meta-raspberrypi" />
+  <project name="meta-openembedded" revision="refs/heads/mickledore"  remote="oe" path="poky/meta-openembedded" />
+  <project name="meta-soft-robotics" revision="refs/heads/main"  remote="jesper" path="poky/meta-meta-soft-robotics" />
+</manifest>
+
