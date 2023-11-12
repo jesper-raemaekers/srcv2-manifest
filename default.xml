@@ -2,7 +2,7 @@
 <manifest>
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="oe" fetch="git://git.openembedded.org" />
-  <remote name="jesper" fetch="git://github.com/jesper-raemaekers" />
+  <remote name="jesper" fetch="https://github.com/jesper-raemaekers" />
   
   <project name="poky" revision="refs/heads/mickledore" remote="yocto" clone-depth="1"/>
   <project name="meta-raspberrypi" revision="refs/heads/mickledore"  remote="yocto" path="meta-raspberrypi" clone-depth="1"/>
