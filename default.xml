@@ -7,6 +7,6 @@
   <project name="poky" revision="refs/heads/mickledore" remote="yocto" clone-depth="1"/>
   <project name="meta-raspberrypi" revision="refs/heads/mickledore"  remote="yocto" path="meta-raspberrypi" clone-depth="1"/>
   <project name="meta-openembedded" revision="refs/heads/mickledore"  remote="oe" path="meta-openembedded" clone-depth="1"/>
-  <project name="meta-soft-robotics" revision="refs/heads/main"  remote="jesper" path="meta-meta-soft-robotics" clone-depth="1"/>
+  <project name="meta-soft-robotics" revision="refs/heads/main"  remote="jesper" path="meta-soft-robotics" clone-depth="1"/>
 </manifest>
 
